@@ -20,7 +20,14 @@ I JavaFX er _GridPane_ en layout-komponent der lægger child-komponenter ud i et
 **Man kan vise linjerne i sit GridPane ved at tilføje:**
 
     gridPane.setGridLinesVisible(true);
+    
+#### Hvad er BorderPane?
+_BorderPane_ er en anden layout-komponent, som placerer child nodes enten i toppen, bunden, til højre eller venstre. Hver region kan kun have én node. Læs mere her: http://www.java2s.com/Tutorials/Java/JavaFX/0330__JavaFX_BorderPane.htm
 
+**Sådan laves BorderPane:**
+
+    BorderPane bp = new BorderPane();
+    
 ### Nyttige links
 - https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm
 - https://www.youtube.com/watch?v=FLkOX4Eez6o
