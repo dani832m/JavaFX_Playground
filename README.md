@@ -3,6 +3,14 @@ Dette repository indeholder lidt fri leg med _JavaFX 2.0._
 
 Jeg forsøger at bygge et par simple FX-applikationer ud fra _MVC-princippet._ Inspiration er bl.a. hentet fra videoer på Lynda.com og YouTube. 
 
+![alt text](https://i.imgur.com/voqbPFg.png "Screenshots af GUI")
+
+
+    WHAT IS JAVAFX?
+    JavaFX is a Java library used to build Rich Internet Applications. The applications written using this library can run consistently across multiple platforms. The applications developed using JavaFX can run on various devices such as Desktop Computers, Mobile Phones, TVs, Tablets, etc.
+    To develop GUI Applications using Java programming language, the programmers rely on libraries such as Advanced Windowing Toolkit and Swing. After the advent of JavaFX, these Java programmers can now develop GUI applications effectively with rich content.
+
+
 ### Noter (Udarbejdet af mig selv!)
 Alle JavaFX-applikationer...
 - SKAL extende klassen _"Application"._
