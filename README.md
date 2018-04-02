@@ -38,6 +38,9 @@ Alle JavaFX-applikationer...
 **Om Scene Graph:**
 * Citat fra Tutorials Point: _"A scene graph is a tree-like data structure (hierarchical) representing the contents of a scene. In contrast, a node is a visual/graphical object of a scene graph."_
 
+![alt text](https://raw.githubusercontent.com/dani832m/JavaFX_Playground/master/JavaFX_Struktur.jpg
+ "Strukturen i JavaFX")
+
 ## Layout Panes
 #### Hvad er GridPane?
 I JavaFX er _GridPane_ en layout-komponent der lægger child-komponenter ud i et _"grid"_ (gitter). Størrelsen på "cellerne" i gitteret kommer an på komponenterne, der ligges heri. Dog har alle "celler" i samme række den samme højde, og alle "celler" i den samme kolonne har den samme bredde.
