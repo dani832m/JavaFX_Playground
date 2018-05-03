@@ -1,7 +1,7 @@
 # JavaFX Playground
 Dette repository indeholder lidt fri leg med _JavaFX 2.0._
 
-Jeg forsøger at bygge et par simple FX-applikationer ud fra _MVC-princippet._ Inspiration er bl.a. hentet fra videoer på Lynda.com og YouTube. 
+Jeg forsøger at bygge et par simple FX-applikationer ud fra _MVC-princippet og løser desuden nogle af opgaverne fra lærebogen._ Inspiration er bl.a. hentet fra videoer på Lynda.com og YouTube. 
 
 ![alt text](https://i.imgur.com/voqbPFg.png "Screenshots af GUI")
 
@@ -15,7 +15,8 @@ Jeg forsøger at bygge et par simple FX-applikationer ud fra _MVC-princippet._ I
 Alle JavaFX-applikationer...
 - SKAL instantiere/extende klassen _"Application"._ Denne klasse udgør fundamentet for, at vi kan lave en JavaFX-applikation.
 - Har tre metoder, som kan overrides - _"init", "start" og "stop"._ Metoden _"start"_ SKAL overrides, da den som udgangspunkt er erklæret abstrakt. Dette bliver automatisk gjort, hvis man anvender JavaFX template i _IntelliJ_. Det er i start-metoden, vi bygger vores app op i forhold til graphics. (Se mere i png-filen "Start Stop Init")
-- Har én _"primaryStage"_ (Stage, et vindue). Herfra laver vi _"scenes"_, som vi tilføjer til vores _"primaryStage"_.
+- Har pr. default én _"primaryStage"_ (Stage, et vindue). Hertil laver vi _"scenes"_, som vi tilføjer til vores _"primaryStage"_.
+- Der kan godt oprettes flere stages, som man så kan tilføje scenes og nodes til. Dette vil som udgangspunkt åbne i flere vinduer - alt afhængig af antal stages.
 
 ### Stage, Scene og Scene Graph
 
@@ -34,6 +35,8 @@ Alle JavaFX-applikationer...
     Eller du kan tage højde og bredde forhold med ind også således:
     
     **Scene scene = new Scene(root, 600, 300);**
+    
+Det første parameter, der tages ind ved oprettelse af en ny scene, repræsenterer en node, der bliver koblet på scenen. Det kan fx være en button.
 
 **Om Scene Graph:**
 * Citat fra Tutorials Point: _"A scene graph is a tree-like data structure (hierarchical) representing the contents of a scene. In contrast, a node is a visual/graphical object of a scene graph."_
